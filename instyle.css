@@ -1,34 +1,75 @@
+@media (min-width: 768px), (orientation: landscape){
 html{
 	height: 100%;
-	margin: 0px;
+	margin: 0% 27.5%;
+	background-color: black;
 	background-image: url("bird.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	background-attachment: local;
 }
-body{
-	padding-top: 4%;
-	padding-left: 2%;
-	padding-right: 4%;
-	padding-bottom: 4%;
-}
 h1{
-	font-size: 375%;
+	font-size: 200%;
+	font: italic;
+	color: maroon;
+	text-align: center;
+	padding: 0% 10%;
+}
+#patt{
+	font-size: 480%;
 	font: bolder;
-	color: blue;
-	padding-top: 2%;
-	padding-bottom: 1.8%;
+	color: maroon;
+	text-align: center;
+	padding: 0% 10%;
 }
 p{
+	text-align: center;
 	font-size: 130%;
-	color: crimson;
+	color: maroon;
 }
 #botst{
 	position: relative;
 }
-footer{
+#convert{
+	position:fixed;
+	text-align: left;
+	width: 25%;
+	bottom: 15%;
+}
+#bottom{
 	position: fixed;
-	width: 88%;
-	bottom: 0;
 	text-align: right;
+	width: 60%;
+	bottom: 1%;
+}
+}
+
+@media (max-width: 767px), (orientation: portrait){
+	html{
+	height: 100%;
+	margin: 0% 0%;
+	background-color: black;
+	background-image: url("bird.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: local;
+}
+#mg{
+	padding-top: 9.7%;
+	padding-left: 70%;
+}
+#convert{
+	position:fixed;
+	text-align: center;
+	padding-left: 40%;
+	padding-right: 73%;
+	width: 38%;
+	bottom: 21%;
+}
+#bottom{
+	position: fixed;
+	text-align: right;
+	width: 122.5%;
+	bottom: 6.5%;
+}
 }
