@@ -13,6 +13,5 @@ p{
 body{
 	background-image: url("bird.jpg");
 	background-repeat: no-repeat;
-	background-size: cover auto;
-	background-position: center;
+	background-size: cover contain;
 }
