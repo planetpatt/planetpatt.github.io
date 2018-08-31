@@ -14,4 +14,7 @@ body{
 	background-image: url("bird.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	margin-right: 33px;
+	margin-left: 33px;
+	padding: 20px;
 }
