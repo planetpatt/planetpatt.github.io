@@ -1,0 +1,20 @@
+body{
+	padding-left: 69px;
+}
+h1{
+	font-size: larger;
+	color: hotpink;
+}
+p{
+	font-size: large;
+	font: fantasy;
+	color: limegreen;
+}
+body{
+	background-image: url("bird.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+html{
+	height: 100%;
+}
