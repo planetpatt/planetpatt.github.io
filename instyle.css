@@ -4,8 +4,8 @@ html{
 	text-align: center;
 	height: 100%;
 	margin: 0% auto;
-	background-color: black;
 	background-image: url("bird.jpg");
+	background-color: black;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -63,11 +63,11 @@ p{
 	text-align: center;
 	height: 100%;
 	margin: 0% auto;
-	background-color: black;
 	background-image: url("bird.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: contain;
+	background-color: black;
 	position: absolute;
 	background-attachment: fixed;
 }
