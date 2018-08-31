@@ -1,6 +1,6 @@
 body{
-	padding-top: 12%;
-	padding-left: 12%;
+	padding-top: 9.8%;
+	padding-left: 7.5%;
 }
 h1{
 	font-size: 145%;
@@ -8,12 +8,11 @@ h1{
 }
 p{
 	font-size: 110%;
-	color: limegreen;
+	color: black;
 }
 body{
 	background-image: url("bird.jpg");
 	background-repeat: no-repeat;
-	background-position: top center;
-	background-size: 80% auto;
-	background-color: black;
+	background-size: cover auto;
+	background-position: center;
 }
