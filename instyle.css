@@ -13,7 +13,7 @@ p{
 body{
 	background-image: url("bird.jpg");
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 100% auto;
 	margin-right: 15%;
 	margin-left: 15%;
 	padding: 20px;
