@@ -1,24 +1,32 @@
-@media (min-width: 768px), (orientation: landscape){
+@media (min-width: 538px){
 html{
+	width: 100%;
+	text-align: center;
 	height: 100%;
-	margin: 0% 27.5%;
+	margin: 0% auto;
 	background-color: black;
 	background-image: url("bird.jpg");
+	background-position: center;
 	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	background-attachment: local;
+	background-size: contain;
+	position: absolute;
+	background-attachment: fixed;
 }
 h1{
-	font-size: 200%;
-	font: italic;
+	font-size: 1.5rem;
 	color: maroon;
 	text-align: center;
+	margin: 0 auto;
 }
 #patt{
-	font-size: 480%;
+	font-size: 2.25rem;
 	font: bolder;
 	color: maroon;
 	text-align: center;
+	margin: 0 auto;
+}
+#hea{
+	padding-left: 40vw;
 }
 #mg{
 	padding-left: 65%;
@@ -47,32 +55,66 @@ p{
 }
 }
 
-@media (max-width: 767px), (orientation: portrait){
+
+
+@media (max-width: 537px){
 	html{
+	width: 100%;
+	text-align: center;
 	height: 100%;
-	margin: 0% 0%;
+	margin: 0% auto;
 	background-color: black;
 	background-image: url("bird.jpg");
+	background-position: center;
 	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	background-attachment: local;
+	background-size: contain;
+	position: absolute;
+	background-attachment: fixed;
+}
+h1{
+	font-size: .5rem;
+	color: maroon;
+	text-align: center;
+	margin: 0 auto;
+}
+#patt{
+	font-size: 1.3rem;
+	font: bolder;
+	color: maroon;
+	text-align: center;
+	margin: 0 auto;
+}
+#hea{
+	padding-top: 30vw;
+	padding-left: 40vw;
 }
 #mg{
-	padding-top: 9.7%;
-	padding-left: 70%;
+	font-size: .75rem;
+	padding-left: 65%;
+	padding-right: 5%;
+	padding-top: 11vw;
+}
+p{
+	text-align: center;
+	font-size: 130%;
+	color: maroon;
+}
+#botst{
+	position: relative;
 }
 #convert{
+	font-size: .75rem;
 	position:fixed;
-	text-align: center;
-	padding-left: 40%;
-	padding-right: 73%;
-	width: 38%;
-	bottom: 21%;
+	text-align: left;
+	width: 57%;
+	padding-left: 35%;
+	bottom: 28%;
 }
 #bottom{
+	font-size: .60rem;
 	position: fixed;
 	text-align: right;
-	width: 122.5%;
-	bottom: 6.5%;
+	width: 40%;
+	bottom: 15%;
 }
 }
