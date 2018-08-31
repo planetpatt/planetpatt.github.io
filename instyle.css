@@ -13,14 +13,16 @@ h1{
 	font: italic;
 	color: maroon;
 	text-align: center;
-	padding: 0% 10%;
 }
 #patt{
 	font-size: 480%;
 	font: bolder;
 	color: maroon;
 	text-align: center;
-	padding: 0% 10%;
+}
+#mg{
+	padding-left: 65%;
+	padding-right: 5%;
 }
 p{
 	text-align: center;
@@ -33,14 +35,15 @@ p{
 #convert{
 	position:fixed;
 	text-align: left;
-	width: 25%;
-	bottom: 15%;
+	width: 19%;
+	padding-left: 18.6%;
+	bottom: 17.5%;
 }
 #bottom{
 	position: fixed;
 	text-align: right;
-	width: 60%;
-	bottom: 1%;
+	width: 59%;
+	bottom: -2.2%;
 }
 }
 
