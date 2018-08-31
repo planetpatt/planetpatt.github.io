@@ -13,5 +13,6 @@ p{
 body{
 	background-image: url("bird.jpg");
 	background-repeat: no-repeat;
-	background-size: 100% 200%;
+	background-size: cover;
+	overflow: scroll;
 }
