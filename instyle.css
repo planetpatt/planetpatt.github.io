@@ -2,15 +2,11 @@ html{
 	height: 100%;
 	margin: 0px;
 	overflow-y: scroll;
-}
-#birdy{
 	background-image: url("bird.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-attachment: fixed;
+	background-attachment: local;
 	position: absolute;
-	z-index: -1;
-}
 body{
 	min-height: 100%;
 	padding-top: 4%;
