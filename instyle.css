@@ -1,6 +1,6 @@
 body{
-	padding-top: 9.8%;
-	padding-left: 7.5%;
+	padding-top: 6%;
+	padding-left: 6%;
 }
 h1{
 	font-size: 160%;
@@ -11,7 +11,6 @@ p{
 	color: crimson;
 }
 body{
-	background-image: url("bird.jpg") no-repeat center center fixed;
-	background-size: cover;
-	height: 100%;
+	background-image: url("bird.jpg");
+	background-size: 100% 100%;
 }
