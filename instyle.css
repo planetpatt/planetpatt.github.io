@@ -13,6 +13,7 @@ p{
 body{
 	background-image: url("bird.jpg");
 	background-repeat: no-repeat;
-	background-size: 76% auto;
+	background-position: top center;
+	background-size: 80% auto;
 	background-color: black;
 }
