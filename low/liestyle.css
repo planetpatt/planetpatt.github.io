@@ -1,0 +1,78 @@
+@font-face{
+	font-family: Rubik;
+	src: url(Rubik-Medium.ttf);
+}
+
+html{
+	background-color: black;
+	font-family: Rubik;
+	color: tan;
+}
+
+@media (orientation: landscape){
+	header{
+	margin-top: 2vh;
+	text-align: center;
+	width: 100%;
+	font-size: 2.2vw;
+	border: .24vh solid tan;
+	}
+
+	h2{
+	font-style: italic;
+	font-size: 2.6vh;
+	margin-right: 1.5%;
+	text-align: right;
+	}
+
+	section{
+	display: block;
+	margin-top: 3vh;
+	margin-bottom: 1.5vh;
+	text-align: center;
+	width: 100%;
+	font-size: 2.5vh;
+	}
+
+	section nav{
+	padding-top: 1.3vh;
+	padding-bottom: 1.3vh;
+	font-size: 3.3vh;
+	}
+
+}
+
+@media (orientation: portrait){
+	header{
+	margin-top: 4vh;
+	text-align: center;
+	width: 100%;
+	font-size: 2.5vw;
+	border: .12vh solid tan;
+	}
+
+	h2{
+	font-style: italic;
+	font-size: 1.8vh;
+	text-align: right;
+	}
+
+	section{
+	display: block;
+	margin-top: 3vh;
+	margin-bottom: 1.5vh;
+	text-align: center;
+	width: 100%;
+	font-size: 2.5vh;
+	}
+
+	section h3{
+	border: .12vh solid tan;
+	}
+
+	section nav{
+	padding-top: 1.3vh;
+	padding-bottom: 1.3vh;
+	font-size: 3.3vh;
+	}
+}
