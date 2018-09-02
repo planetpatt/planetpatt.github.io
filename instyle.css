@@ -1,120 +1,47 @@
-@media (min-width: 538px){
+@font-face{
+	font-family: Gugi;
+	src: url(Gugi-Regular.ttf);
+}
 html{
+	font-family: Gugi;
 	width: 100%;
-	text-align: center;
 	height: 100%;
 	margin: 0% auto;
-	background-image: url("bird.jpg");
-	background-color: black;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: contain;
-	position: absolute;
+	background: url("newbg.jpg") top center no-repeat, url("binding_dark.png") top left repeat;
+	background-size: contain, auto;
 	background-attachment: fixed;
-}
-h1{
-	font-size: 1.5rem;
 	color: maroon;
 	text-align: center;
-	margin: 0 auto;
 }
-#patt{
-	font-size: 2.25rem;
-	font: bolder;
-	color: maroon;
-	text-align: center;
-	margin: 0 auto;
+
+@media (orientation: landscape){
+#oebutton{
+	margin-top: 5%;
+	margin-right: 35vw;
+	object-position: center;
 }
-#hea{
-	padding-left: 40vw;
-}
-#mg{
-	padding-left: 65%;
-	padding-right: 5%;
-}
-p{
-	text-align: center;
-	font-size: 130%;
-	color: maroon;
-}
-#botst{
-	position: relative;
-}
-#convert{
-	position:fixed;
-	text-align: left;
-	width: 19%;
-	padding-left: 18.6%;
-	bottom: 17.5%;
-}
-#bottom{
-	position: fixed;
-	text-align: right;
-	width: 59%;
-	bottom: -2.2%;
+#oldearth{
+	display: inline-block;
+	padding: 15vh 5vw 5vh 15vw;
+	opacity: 0;
+	cursor: pointer;
+	border: none;
 }
 }
 
-
-
-@media (max-width: 537px){
-	html{
-	width: 100%;
-	text-align: center;
-	height: 100%;
-	margin: 0% auto;
-	background-image: url("bird.jpg");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-color: black;
-	position: absolute;
-	background-attachment: fixed;
+@media (orientation: portrait){
+	#oebutton{
+	margin-top: 10%;
+	margin-right: 60%;
+	object-position: center;
+	height: auto;
 }
-h1{
-	font-size: .5rem;
-	color: maroon;
-	text-align: center;
-	margin: 0 auto;
-}
-#patt{
-	font-size: 1.3rem;
-	font: bolder;
-	color: maroon;
-	text-align: center;
-	margin: 0 auto;
-}
-#hea{
-	padding-top: 30vw;
-	padding-left: 40vw;
-}
-#mg{
-	font-size: .75rem;
-	padding-left: 65%;
-	padding-right: 5%;
-	padding-top: 11vw;
-}
-p{
-	text-align: center;
-	font-size: 130%;
-	color: maroon;
-}
-#botst{
-	position: relative;
-}
-#convert{
-	font-size: .75rem;
-	position:fixed;
-	text-align: left;
-	width: 57%;
-	padding-left: 35%;
-	bottom: 28%;
-}
-#bottom{
-	font-size: .60rem;
-	position: fixed;
-	text-align: right;
-	width: 40%;
-	bottom: 15%;
+#oldearth{
+	display: inline-block;
+	padding: 40%;
+	opacity: .5;
+	cursor: pointer;
+	border: none;
+	border-radius: 100%;
 }
 }
