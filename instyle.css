@@ -17,7 +17,7 @@ html{
 #oldearth{
 	display: inline-block;
 	padding: 15vh 5vw 5vh 15vw;
-	opacity: .5;
+	opacity: 0;
 	cursor: pointer;
 	border: none;
 }
