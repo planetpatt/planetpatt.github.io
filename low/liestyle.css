@@ -49,22 +49,17 @@ html{
 		display: inline-block;
 	}
 
-	.desc{
-		font-size: 70%;
-		display: none;
-	}
-
 	.ytmusic{
 		padding: 0;
 		text-align: center;
-		margin: 3vh 3vw 3vh 3vw;
+		margin: 2vh 2vw 2vh 2vw;
 		display: inline-block;
 	}
 
 	li iframe{
 		border: 0;
-		height: 25vh;
-		width: 25vw;
+		height: 40vh;
+		width: 35vw;
 	}
 
 	.ytvid{
