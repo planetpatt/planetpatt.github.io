@@ -2,7 +2,7 @@ html{
 	width: 100%;
 	height: 100%;
 	margin: 0% auto;
-	background: url("newbg.jpg") top center no-repeat, url("binding_dark.png") top left repeat;
+	background: url("newbg.jpg") top center no-repeat, url("ep_naturalblack.png") top left repeat;
 	background-size: contain, auto;
 	background-attachment: fixed;
 	text-align: center;
