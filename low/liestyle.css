@@ -70,7 +70,7 @@ html{
 	}
 
 	.art{
-		width: 100%
+		width: 100%;
 	}
 
 	.arts{
@@ -148,7 +148,8 @@ html{
 	}
 
 	.art{
-		width: 100%
+		text-align: center;
+		width: 100%  
 	}
 
 	.arts{
